@@ -1,11 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-
+import { Ionicons } from '@expo/vector-icons'
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Saida Will You Marry Me BOo</Text>
+        <Ionicons name='ios-pizza' color ='blue' size='100'/>
 
       </View>
     );
