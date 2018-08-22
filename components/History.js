@@ -38,7 +38,7 @@ import { AppLoading} from 'expo'
         </Text>
       </View>
     : <TouchableOpacity
-        onPress={() => console.log('Pressed!')}
+        onPress={() => this.props.navigation.navigate('EntryDetail', {entryId: key})}
       >
           <MetricCard date={formattedDate} metrics={metrics} />
       </TouchableOpacity>}
